@@ -1,0 +1,175 @@
+/* hero background image */
+.bgimage {
+  height: 100vh;
+  background: url("images/heroImage.jpg");
+  background-size: cover;
+  position: center center;
+}
+/* hero background image */
+/* Adjust the spacing between the sections */
+#about {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+
+/* Ensure the imageAboutPage class maintains its aspect ratio */
+.imageAboutPage {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+/* Center the "Experiences and Projects" text */
+#about p > center {
+  display: block;
+  text-align: center;
+}
+
+/* text css above hero image*/
+.hero_title {
+  font-size: 4.5rem;
+}
+.hero_desc {
+  font-size: 2rem;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* services section css */
+.servicesText.card {
+  height: 280px;
+  cursor: pointer;
+}
+.servicesIcon {
+  font-size: 36px;
+  text-align: center;
+  width: 100%;
+}
+.card-title {
+  text-align: center;
+}
+.card:hover .servicesIcon {
+  color: #008000;
+}
+.servicesText:hover {
+  border: 1px solid #008000;
+}
+
+/* Customize the background and text color of the navbar */
+.navbar {
+  background-color: #333; /* Change to your preferred background color */
+  color: #fff; /* Change to your preferred text color */
+}
+
+/* Style the navbar links */
+.navbar-nav .nav-link {
+  color: #fff; /* Text color for the links */
+  margin: 0 10px; /* Adjust the spacing between links */
+  text-transform: uppercase; /* Convert text to uppercase */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffd700; /* Change link color on hover */
+}
+
+/* Center the navbar brand text */
+.navbar-brand {
+  margin: 0;
+}
+
+/* Style the toggle button */
+.navbar-toggler-icon {
+  background-color: #fff; /* Color of the toggle button */
+}
+
+/* Change color of the active link */
+.navbar-nav .nav-item.active .nav-link {
+  color: #ffd700; /* Change the color of the active link */
+}
+
+/* Adjust spacing and alignment of the navbar */
+.navbar-collapse {
+  justify-content: flex-end; /* Right-align the links */
+}
+
+/* Add a box shadow to the navbar when scrolled */
+.navbarScroll {
+  transition: all 0.3s;
+}
+
+/* Customize the background of the navigation bar when scrolled */
+.navbarScroll.navbar {
+  background-color: #333; /* Change to your preferred background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a box shadow */
+}
+/* social media icons styling */
+/* Social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  align-items: center; /* Center the icons vertically */
+  width: 100%; /* Expand to full width */
+  padding: 20px 0; /* Add padding for spacing */
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #008000;
+}
+
+#footer {
+  background: url("images/texture.jpg"); /* Replace 'texture.png' with the path to your texture image */
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Moving name styling */
+#moving-name {
+  position: absolute;
+  bottom: 10;
+  left: 10;
+  white-space: nowrap;
+  animation: moveName 30s linear infinite; /* Adjust duration as needed */
+}
+
+@keyframes moveName {
+  0% {
+    transform: translateX(100%); /* Move the name from right to left */
+  }
+  100% {
+    transform: translateX(-100%); /* Move the name from left to right */
+  }
+}
+
+/* Center the "About Me" text vertically in the middle of the picture */
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+/* spacing on all sections */
+#about,
+#services,
+#portfolio,
+#contact {
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
