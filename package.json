@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A simple HTML and CSS project",
+  "main": "index.html",
+  "scripts": {
+    "start": "echo 'This project does not require any scripts.'"
+  },
+  "author": "idris",
+  "license": "MIT"
+}
